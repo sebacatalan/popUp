@@ -1,0 +1,36 @@
+/* Google Fonts: Montserrat para simular la tipografía institucional */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Colores personalizados UCT */
+.uct-blue { 
+    background-color: #0076a8; 
+}
+
+.uct-dark-blue { 
+    background-color: #005f89; 
+}
+
+.uct-yellow { 
+    color: #ffc107; 
+}
+
+.uct-yellow-bg { 
+    background-color: #fdb913; 
+}
+
+/* Efecto para el botón de pago */
+.btn-outline-blue {
+    border: 2px solid #0076a8;
+    color: #0076a8;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-blue:hover {
+    background-color: #0076a8;
+    color: white;
+}

@@ -1,0 +1,40 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, .font-heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Colores personalizados UCT */
+.uct-blue { 
+    background-color: #0084b6; 
+}
+
+.uct-dark-blue { 
+    color: #004e7c; 
+}
+
+.uct-teal { 
+    color: #00a499; 
+    border-bottom-color: #00a499; 
+}
+
+/* Hero Background Overlay */
+.hero-bg {
+    background: linear-gradient(135deg, rgba(0, 132, 182, 0.9) 0%, rgba(0, 78, 124, 0.9) 100%),
+                url('https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navegación activa */
+.nav-item-active {
+    border-bottom: 3px solid #0084b6;
+    color: #004e7c;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/logo-icon.png">
+    <title>UCT - Direcciones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        /* Colores UCT */
+        .uct-celeste {
+            background-color: #0084b6;
+        }
+        .uct-amarillo {
+            background-color: #ffc107;
+        }
+    </style>
+</head>
+<body class="uct-celeste min-h-screen flex items-center justify-center p-4">
+
+    <div class="text-center max-w-2xl">
+        <!-- Logo UCT -->
+        <div class="mb-12">
+            <img src="images/Universidad_Catolica_de_Temuco_Logo_Vertical.png" alt="Logo UCT" class="h-32 mx-auto mb-6 drop-shadow-lg">
+            <h1 class="text-5xl font-extrabold text-white mb-2">Universidad Católica de Temuco</h1>
+            <!-- <p class="text-xl text-blue-50 mb-8">Portal de Direcciones</p> -->
+        </div>
+
+        <!-- Descripción -->
+        <p class="text-lg text-blue-50 mb-12 leading-relaxed">
+            Acceda al chatbot de DIRINF o de DCR. Seleccione una opción para continuar.
+        </p>
+
+        <!-- Botones -->
+        <div class="grid md:grid-cols-2 gap-6 mb-8">
+            <!-- Botón DCR -->
+            <a href="DCR/index.html" class="group">
+                <div class="bg-white rounded-lg shadow-xl p-8 hover:shadow-2xl transition transform hover:scale-105 cursor-pointer">
+                    <div class="text-5xl uct-celeste mb-4">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Dirección de Crédito y Recaudación</h2>
+                    <p class="text-gray-600 mb-4">Accede a información sobre pagos y gestión de cobranza</p>
+                    <span class="inline-block uct-celeste text-white px-6 py-2 rounded-full font-semibold hover:opacity-90 transition">
+                        Ingresar <i class="fas fa-arrow-right ml-2"></i>
+                    </span>
+                </div>
+            </a>
+
+            <!-- Botón DIRINF -->
+            <a href="DIRINF/index.html" class="group">
+                <div class="bg-white rounded-lg shadow-xl p-8 hover:shadow-2xl transition transform hover:scale-105 cursor-pointer">
+                    <div class="text-5xl uct-celeste mb-4">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Dirección de Informática</h2>
+                    <p class="text-gray-600 mb-4">Accede a información institucional y directorios</p>
+                    <span class="inline-block uct-celeste text-white px-6 py-2 rounded-full font-semibold hover:opacity-90 transition">
+                        Ingresar <i class="fas fa-arrow-right ml-2"></i>
+                    </span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-blue-100 text-sm mt-12 pt-8 border-t border-blue-600">
+            <p>&copy; 2025 Universidad Católica de Temuco. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
